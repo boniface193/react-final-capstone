@@ -42,19 +42,19 @@
 <details>
   <summary>JSX</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Jsx">JSX</a></li>
   </ul>
 </details>
 <details>
   <summary>CSS</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
   </ul>
 </details>
 <details>
   <summary>React</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/React">React</a></li>
   </ul>
 </details>
 
@@ -86,9 +86,9 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
-sudo apt install git-all
-or
-npm install
+Node.js
+React.js
+Redux toolkit
 ```
 
 ### Setup
@@ -96,8 +96,8 @@ npm install
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/Yacoubou-seidou/ToDo_List.git
+  git clone https://github.com/boniface193/react-final-capstone.git
+  cd react-final-capstone
 ```
 
 ### Usage
@@ -105,9 +105,8 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 
 ```sh
-  Open index.html in browser
-  or
-  open with Live server in Vscode
+  npm install
+  npm run start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
