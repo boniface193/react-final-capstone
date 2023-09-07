@@ -71,7 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yacoubou-seidou.github.io/ToDo_List/)
+- [Live Demo Link](https://quiet-cat-6bf6ec.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +188,7 @@ If you like this project show some love by commenting
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse staff for their support
+I would like to thank Microverse staff for their support, original design by Nelson Sakwa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
