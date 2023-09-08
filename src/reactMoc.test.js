@@ -22,7 +22,7 @@ describe('Category component', () => {
         <Router>
           <Category cryptos={cryptos} />
         </Router>
-      </Provider>
+      </Provider>,
     );
 
     const tree = component.toJSON();
