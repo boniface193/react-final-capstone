@@ -71,7 +71,10 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yacoubou-seidou.github.io/ToDo_List/)
+- [Live Demo Link](https://musical-lebkuchen-113690.netlify.app/)
+
+- [Video Link](https://www.loom.com/share/bd5194759c064b2c92bd4e2ce46c34d7?sid=9f5ea5db-ad26-4f3b-917b-1f4d8bfa681c)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,8 +173,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Yacoubou-seidou/ToDo_List/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
