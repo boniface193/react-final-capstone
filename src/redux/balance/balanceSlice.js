@@ -27,7 +27,11 @@ const cryptoSlice = createSlice({
     getFormValue: (state, action) => {
       try {
         state.searchCrypto = action.payload;
-        state.cryptos = state.allCryptos.filter((item) => item.symbol === state.searchCrypto);
+        state.cryptos = state.allCryptos.filter((item) => {
+          if (item.symbol.indexOf(state.searchCrypto) > -1) {
+            return item.symbol
+          }
+        });
       } catch (error) {
         state.error = error
       }

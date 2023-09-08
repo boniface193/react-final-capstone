@@ -23,7 +23,7 @@ const Home = () => {
 
   const getValue = (e) => {
     e.preventDefault();
-    if (formValue.trim() !== '' || formValue.searchValue !== '') {
+    if (formValue.searchValue !== '') {
       document.querySelector('.submit').reset();
       const toUpperCaseText = formValue.toUpperCase();
       dispatch(getFormValue(
