@@ -157,7 +157,7 @@ form span {
 
 .card {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   margin-top: 40px;
 }
 

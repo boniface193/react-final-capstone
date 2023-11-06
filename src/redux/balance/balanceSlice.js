@@ -1,9 +1,9 @@
 /* eslint-disable */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 const API_KEY = '9baf1140cf980b91bb275e8c15640c1f';
-const API_KEY1 = '8586b6438c2f8417d6cb1c5353352491';
+const API_KEY1 = 'Whr1AGhcrrLDmrpGti85aydsEnNfrNZb';
 
-const url = `https://financialmodelingprep.com/api/v3/symbol/available-cryptocurrencies?apikey=${API_KEY1}`;
+const url = `https://financialmodelingprep.com/api/v3/symbol/available-cryptocurrencies?apikey=${API_KEY}`;
 
 const fetchCrypto = async () => {
   const res = await fetch(url);
@@ -35,6 +35,12 @@ const cryptoSlice = createSlice({
       } catch (error) {
         state.error = error
       }
+    },
+
+    showOnlyOnSmallerScreen: (state) => {
+      if (window.innerWidth > 426) {
+        state.error = 'this app can only be viewed on a mobile screen'
+      }
     }
   },
 
@@ -59,4 +65,4 @@ const cryptoSlice = createSlice({
 });
 
 export default cryptoSlice.reducer;
-export const { getFormValue } = cryptoSlice.actions;
+export const { getFormValue, showOnlyOnSmallerScreen } = cryptoSlice.actions;
