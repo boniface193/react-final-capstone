@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category component matches the snapshot 1`] = `
+<section
+  className="text-white card"
+>
+  <article>
+    <a
+      href="/BTC"
+      onClick={[Function]}
+    >
+      <i
+        className="fa-regular fa-circle-right cursor-pointer"
+      />
+    </a>
+    <div
+      className="card-body d-flex"
+    >
+      <aside>
+        <h6>
+          ExchangeShortName
+        </h6>
+        <p />
+      </aside>
+      <aside
+        className="pl-2"
+      >
+        <h3>
+          symbol
+        </h3>
+        <p
+          className="text-yellow"
+        >
+          BTC
+        </p>
+      </aside>
+    </div>
+  </article>
+  <article>
+    <a
+      href="/ETH"
+      onClick={[Function]}
+    >
+      <i
+        className="fa-regular fa-circle-right cursor-pointer"
+      />
+    </a>
+    <div
+      className="card-body d-flex"
+    >
+      <aside>
+        <h6>
+          ExchangeShortName
+        </h6>
+        <p />
+      </aside>
+      <aside
+        className="pl-2"
+      >
+        <h3>
+          symbol
+        </h3>
+        <p
+          className="text-yellow"
+        >
+          ETH
+        </p>
+      </aside>
+    </div>
+  </article>
+</section>
+`;

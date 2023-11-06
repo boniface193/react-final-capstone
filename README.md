@@ -42,19 +42,19 @@
 <details>
   <summary>JSX</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Jsx">JSX</a></li>
   </ul>
 </details>
 <details>
   <summary>CSS</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
   </ul>
 </details>
 <details>
   <summary>React</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/React">React</a></li>
   </ul>
 </details>
 
@@ -71,7 +71,10 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yacoubou-seidou.github.io/ToDo_List/)
+- [Live Demo Link](https://musical-lebkuchen-113690.netlify.app/)
+
+- [Video Link](https://www.loom.com/share/bd5194759c064b2c92bd4e2ce46c34d7?sid=9f5ea5db-ad26-4f3b-917b-1f4d8bfa681c)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,9 +89,9 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
-sudo apt install git-all
-or
-npm install
+Node.js
+React.js
+Redux toolkit
 ```
 
 ### Setup
@@ -96,19 +99,50 @@ npm install
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/Yacoubou-seidou/ToDo_List.git
+  git clone https://github.com/boniface193/react-final-capstone.git
+  cd react-final-capstone
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh
-  Open index.html in browser
-  or
-  open with Live server in Vscode
-```
+### `npm install`
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,8 +174,6 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Yacoubou-seidou/ToDo_List/issues).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
@@ -157,7 +189,7 @@ If you like this project show some love by commenting
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse staff for their support
+I would like to thank Microverse staff for their support, original design by Nelson Sakwa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
