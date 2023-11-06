@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchCryptos, getFormValue } from '../redux/balance/balanceSlice';
+import { fetchCryptos, getFormValue, showOnlyOnSmallerScreen } from '../redux/balance/balanceSlice';
 import Headers from './Header';
 import Category from './Categories';
 
@@ -16,6 +16,10 @@ const Home = () => {
   useEffect(() => {
     dispatch(fetchCryptos());
   }, [dispatch]);
+
+  useEffect(() => {
+    dispatch(showOnlyOnSmallerScreen());
+  });
 
   const handleChange = (e) => {
     setFormValue(e.target.value);
@@ -32,12 +36,17 @@ const Home = () => {
     }
     setFormValue({ searchValue: '' });
   };
+  if (error) {
+    return (
+      <>
+        <span className={error ? 'bg-load' : ''}>{error}</span>
+      </>
+    );
+  }
   return (
     <section className="bg-blue">
-      <Headers title="CRYPTO, FOREX & COMMODITIES" />
-
       <span className={loading ? 'bg-load' : ''}>{loading ? 'Loading...' : ''}</span>
-      <span>{error}</span>
+      <Headers title="CRYPTO, FOREX & COMMODITIES" />
 
       <aside className="text-white ">
         <div className="bg-image" />
