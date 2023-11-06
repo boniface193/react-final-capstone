@@ -19,7 +19,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(showOnlyOnSmallerScreen());
-  }, [showOnlyOnSmallerScreen()]);
+  });
 
   const handleChange = (e) => {
     setFormValue(e.target.value);
